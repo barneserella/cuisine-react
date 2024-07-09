@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/img/cuisine.png';
+import logo from '../assets/img/cuisine2.jpg';
+import background from '../assets/img/cuisine.png';
 
 const Navbar = () => {
     const linkClass = ({ isActive }) => isActive ? 'bg-white text-black hover:bg-gray-900 hover:text-black rounded-md px-3 py-2'
@@ -15,7 +16,7 @@ const Navbar = () => {
             <NavLink className='flex flex-shrink-0 items-center mr-4' to='/'>
               <img className='h-10 w-auto' src={logo} alt='React Jobs' />
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
-                React Jobs
+                Cuisine Website
               </span>
             </NavLink>
             <div className='md:ml-auto'>
@@ -23,10 +24,10 @@ const Navbar = () => {
                 <NavLink to='/' className={linkClass}>
                   Home
                 </NavLink>
-                <NavLink to='/jobs' className={linkClass}>
+                <NavLink to='/' className={linkClass}>
                   About Us
                 </NavLink>
-                <NavLink to='/add-job' className={linkClass}>
+                <NavLink to='/' className={linkClass}>
                   Menu
                 </NavLink>
                 <NavLink to='/' className={linkClass}>
