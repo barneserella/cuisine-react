@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 
 const Menu = () => {
   return (
@@ -7,11 +9,12 @@ const Menu = () => {
             <div className="center">Order Online Now</div>
             <h3 className="center">Our Specialty Cuisine</h3>
             <div className="flex items-center">
-                <li><a href="#">Breakfast</a></li>
-                <li><a href="#">Lunch</a></li>
-                <li><a href="#">Dinner</a></li>
-                <li><a href="#">Dessert</a></li>        
-                <li><a href="#">Shake</a></li>
+                <NavLink to="/">Breakfast</NavLink>
+                <NavLink to="/">Lunch</NavLink>
+                <NavLink to="/">Dinner</NavLink>
+                <NavLink to="/">Dessert</NavLink>
+                <NavLink to="/">Shakes</NavLink>
+                
             </div>
             <section>
             <img className="image" src="#"></img>
@@ -24,4 +27,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default Menu;

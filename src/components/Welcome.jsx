@@ -12,6 +12,10 @@ const Welcome = () => {
         <button value="Discover Menu">Discover Menu</button>
         </section>
     </section>
+<<<<<<< HEAD
+=======
+    </section>
+>>>>>>> d077169 (welcome)
     
   )
 }
