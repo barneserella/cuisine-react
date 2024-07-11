@@ -20,14 +20,14 @@ const Header = () => {
             <button value='location'>Find Location</button>
             <div className='md:ml-auto'>
               <div className='flex space-x-2'>
-                <NavLink to='/facebook' className={linkClass}>
-                    <img className='h-10 w-auto' src={logoFacebook} alt='Facebook' />
+                <NavLink to='/facebook' className={linkClass}>Facebook
+                    {/* <img className='h-10 w-auto' src={logoFacebook} alt='Facebook' /> */}
                 </NavLink>
-                <NavLink to='/instagram' className={linkClass}>
-                    <img className='h-10 w-auto' src={logoInstagram} alt='Instagram' />
+                <NavLink to='/instagram' className={linkClass}>Instagram
+                    {/* <img className='h-10 w-auto' src={logoInstagram} alt='Instagram' /> */}
                 </NavLink>
-                <NavLink to='/twitter' className={linkClass}>
-                    <img className='h-10 w-auto' src={logoTwitter} alt='Twitter' />
+                <NavLink to='/twitter' className={linkClass}>Twitter
+                    {/* <img className='h-10 w-auto' src={logoTwitter} alt='Twitter' /> */}
                 </NavLink>
               </div>
             </div>
